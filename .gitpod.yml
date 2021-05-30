@@ -1,0 +1,3 @@
+tasks:
+  - init: bit import && bit build
+    command: bit start
