@@ -1,9 +1,10 @@
 import React from 'react';
-import { ThemeCompositions } from '@teambit/documenter.theme.theme-compositions';
+import { ThemeCompositions } from '@teambit/evangelist.theme.evangelist-theme';
+import { brands } from '@teambit/evangelist.theme.brands';
 import { SupportPage } from './support';
 
 export const SupportPageComposition = () => (
-	<ThemeCompositions>
+	<ThemeCompositions className={brands}>
 		<SupportPage data-testid="test-page" />
 	</ThemeCompositions>
 );
